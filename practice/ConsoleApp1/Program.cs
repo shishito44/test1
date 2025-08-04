@@ -2,8 +2,7 @@
 Console.WriteLine("オウム返しをするプログラム（finで終了）");
 while (true)
 {
-    string str;
-    str = Console.ReadLine();
+    string? str = Console.ReadLine();
     if (str == string.Empty)
     {
         Console.WriteLine("文字を入力してください");
